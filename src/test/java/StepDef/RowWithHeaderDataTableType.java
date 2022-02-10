@@ -8,16 +8,16 @@ import objects.Customer;
 
 public class RowWithHeaderDataTableType {
 	
-	@DataTableType
-	public Customer passData(Map<String,String> entry) {
-		return new Customer(entry.get("username"),entry.get("password"));
-		
-	}
+//	@DataTableType
+//	public Customer passData(Map<String,String> entry) {
+//		return new Customer(entry.get("username"),entry.get("password"));
+//		
+//	}
 
 @Given("Row With header DataTableType")
 public void row_With_header_DataTableType(Customer customers) {
-	System.out.println("Username value :"+customers.getUsername());
-	System.out.println("Password value :"+customers.getPassword());
+//	System.out.println("Username value :"+customers.getUsername());
+//	System.out.println("Password value :"+customers.getPassword());
    
 }
 }
